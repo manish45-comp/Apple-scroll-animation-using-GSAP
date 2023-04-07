@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display', sans-serif;                                               
+}
+body{
+    background-color: #fbfbfd;
+}
+h1{
+    text-align:center;
+    color: #fbfbfd;
+}
+
+.landing-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.langing-img{
+    width: 45%;
+    aspect-ratio: 1;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('./images/hero__ecv967jz1y82_large.jpg');
+    position: relative;
+}
+
+.landing-text{
+    text-align: center;
+    width: 400px;
+}
+
+.landing-text h2{
+    font-size: 64px;
+    color: #161617;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.landing-text p{
+    font-size: 19px;
+    padding: 20px 0;
+    transition: all 0.6s ease;
+    font-weight: 300;
+}
+
+.text-con{
+    position: absolute;
+    top: 40%;
+    left: 50%; 
+    width: inherit;
+}
+.anime{
+    transition: all 0.3s ease;
+}
